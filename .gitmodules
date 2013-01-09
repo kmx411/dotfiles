@@ -1,0 +1,3 @@
+[submodule "MatchTag"]
+	path = vim/bundle/MatchTag
+	url = git@github.com:gregsexton/MatchTag.git
