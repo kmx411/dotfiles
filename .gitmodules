@@ -7,3 +7,12 @@
 [submodule "nerdtree"]
 	path = vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "vim-css-color"]
+	path = vim/bundle/vim-css-color
+	url = git@github.com:skammer/vim-css-color.git
+[submodule "vim-less"]
+	path = vim/bundle/vim-less
+	url = git@github.com:groenewege/vim-less.git
