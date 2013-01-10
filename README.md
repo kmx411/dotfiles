@@ -1,6 +1,6 @@
 # Dotfiles 
 ## Configuration for life infront of a terminal 
-## Strongly inspired by [cjveal](https://github.com/cjhveal/dotfiles)
+#### Strongly inspired by [cjveal](https://github.com/cjhveal/dotfiles)
 
 ### To install: 
 `cd ~ && git clone git://github.com/kmx411/dotfiles.git && cd dotfiles && ./install`
