@@ -5,6 +5,13 @@
 ### To install: 
 `cd ~ && git clone git://github.com/kmx411/dotfiles.git && cd dotfiles && ./install`
 
+If you don't yet have Vundle, it is required
+`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
+
+Use Vundle to install plugins
+`vim --noplugin -u ~/.vim/bundles.vim +BundleInstall +qall`
+
+
 ### Bash Shortcuts
     l - ls -al
 
