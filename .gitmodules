@@ -1,3 +1,9 @@
 [submodule "MatchTag"]
 	path = vim/bundle/MatchTag
 	url = git@github.com:gregsexton/MatchTag.git
+[submodule "nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "nerdtree"]
+	path = vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
