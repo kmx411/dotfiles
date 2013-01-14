@@ -11,6 +11,10 @@ alias gl='git pull'
 alias gc='git commit -m'
 alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+#FUN
+#--------------------------
+alias please="sudo"
+
 #Path
 #-------------------------------
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
