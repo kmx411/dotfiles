@@ -9,6 +9,7 @@ alias ga='git add'
 alias gp='git push'
 alias gl='git pull'
 alias gc='git commit -m'
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 #Path
 #-------------------------------
