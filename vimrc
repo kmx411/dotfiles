@@ -28,6 +28,9 @@ set softtabstop=2
 set expandtab
 set tabstop=2
 
+"keep the cursor away from the bottom of the page
+set scrolloff=5
+
 "Move arround splits with ctrl+direction instead of the leading ctr+w
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
