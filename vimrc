@@ -43,9 +43,13 @@ inoremap jj <esc>
 "customizations for NERDTree
 noremap <leader>n :NERDTreeToggle<CR>
 
-"customizations for zencoding
-let g:user_zen_settings = {
-                        \'html': {
-                        \ 'indentation' : '  '
-                        \ },
-                        \}
+"customizations for Tabular
+nnoremap <leader>a= :Tab /=<CR>
+nnoremap <leader>as= :Tab /=\zs<CR>
+vnoremap <leader>a= :Tab /=<CR>
+vnoremap <leader>as= :Tab /=\zs<CR>
+
+nnoremap <leader>a: :Tab /:<CR>
+nnoremap <leader>as: :Tab /:\zs<CR>
+vnoremap <leader>a: :Tab /:<CR>
+vnoremap <leader>as: :Tab /:\zs<CR>
