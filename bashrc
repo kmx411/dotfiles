@@ -12,6 +12,13 @@ alias gc='git commit -m'
 alias gca='git commit -a -m'
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
+#SVN
+#---------------------------
+alias sa='svn add'
+alias ss='svn status'
+alias sr='svn remove'
+alias sc='svn commit -m'
+
 #Backwards Navigation
 #---------------------------
 alias ..='cd ..'
