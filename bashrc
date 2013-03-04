@@ -18,6 +18,8 @@ alias sa='svn add'
 alias ss='svn status'
 alias sr='svn remove'
 alias sc='svn commit -m'
+alias sup='svn update'
+alias sbranch='svn info'
 
 #Backwards Navigation
 #---------------------------

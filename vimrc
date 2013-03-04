@@ -40,6 +40,17 @@ nnoremap <c-l> <c-w>l
 "use jj to get back to normal mode instead of esc
 inoremap jj <esc>
 
+"better movements
+nmap j gj
+nmap k gk
+
+"improved text searchingo
+set incsearch "highlihgt as typing
+set ignorecase "case insensitive
+set smartcase "unless all caps
+set hlsearch "highlihght results
+nmap <leader>q :nohlsearch<CR>
+
 "customizations for NERDTree
 noremap <leader>n :NERDTreeToggle<CR>
 
@@ -53,3 +64,16 @@ nnoremap <leader>a: :Tab /:<CR>
 nnoremap <leader>as: :Tab /:\zs<CR>
 vnoremap <leader>a: :Tab /:<CR>
 vnoremap <leader>as: :Tab /:\zs<CR>
+
+"customizations for CtrlP
+let g:ctrlp_map = '<Leader>t'
+"
+" disable arrow keys, use if learning
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
