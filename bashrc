@@ -17,9 +17,11 @@ alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgr
 alias sa='svn add'
 alias ss='svn status'
 alias sr='svn remove'
+alias sd='svn delete filename --keep-local'
 alias sc='svn commit -m'
 alias sup='svn update'
 alias sbranch='svn info'
+alias signore='svn propset --recursive svn:ignore -F .svn_ignore .'
 
 #Backwards Navigation
 #---------------------------
