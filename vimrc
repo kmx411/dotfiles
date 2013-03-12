@@ -77,3 +77,6 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+"automatically set slimbars filetype
+autocmd BufRead,BufNewFile *.slimbars setlocal filetype=slim
