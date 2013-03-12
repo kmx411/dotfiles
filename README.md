@@ -10,32 +10,63 @@ If you don't yet have Vundle, it is required
 `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
 Use Vundle to install plugins
-`vim --noplugin -u ~/.vim/bundles.vim +BundleInstall +qall`
+`cd ~/dotfiles && ./update`
 
 
 ### Bash Shortcuts
-    l      : ls -al
+    l       : ls -al
 
-    gs     : git status
-    ga     : git add
-    gp     : git push
-    gl     : git pull
-    gc     : git commit -m
-    gca    : got commit -a -m
-    glog   : a colourful git log
+    gs      : git status
+    ga      : git add
+    gp      : git push
+    gl      : git pull
+    gc      : git commit -m
+    gca     : got commit -a -m
+    glog    : a colourful git log
 
-    please : sudo
+    sa      : svn add
+    ss      : svn status
+    sr      : svn remove
+    sd      : svn delete but keep local version
+    sc      : svn commit -m
+    sup     : svn update
+    sbranch : svn info
 
-    ..     : cd ..
-    ...    : cd ../..
-    ....   : cd ../../..
-    .....  : cd ../../../..
+    please  : sudo
+
+    ..      : cd ..
+    ...     : cd ../..
+    ....    : cd ../../..
+    .....   : cd ../../../..
 
 ### Vim Bindings
     jj             : esc
-    ,n             : open filetree
     Ctrl-[h/j/k/l] : move between windown splits
 
+    ,a=            : allign on equal sign
+    ,as=           : allign sexy on equal sign
+    ,a:            : allign on colon sign
+    ,as:           : allign sexy on colon sign
+
+    ,t             : activate fuzzy search (ctrlp plugin)
+    ,n             : open filetree (nerd tree)
+
+### Installed Plugins
+    MatchTag
+    NerdTree
+    NerdCommenter
+    VimCoffeScript
+    VimCssColour
+    VimLess
+    Python.vim
+    VimRuby
+    VimSlim
+    Tabular
+    Zencoding
+    Syntastic
+    CTRLP.vim
+    VimSurround
+    CamelCaseMotion
 
 ### Notes:
 It is reccomended that you install vcprompt and rbenv, but not required.
