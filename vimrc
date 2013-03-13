@@ -32,10 +32,16 @@ set tabstop=2
 set scrolloff=5
 
 "Move arround splits with ctrl+direction instead of the leading ctr+w
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+nmap <c-j> <c-w>j
+nmap <c-k> <c-w>k
+nmap <c-h> <c-w>h
+nmap <c-l> <c-w>l
+
+"resize windows with leader + -
+nnoremap <silent> <up>    :res -5 <CR>
+nnoremap <silent> <down>  :res +5 <CR>
+nnoremap <silent> <right> :vertical resize +5 <CR>
+nnoremap <silent> <left>  :vertical resize -5 <CR>
 
 "use jj to get back to normal mode instead of esc
 inoremap jj <esc>
@@ -67,16 +73,8 @@ vnoremap <leader>as: :Tab /:\zs<CR>
 
 "customizations for CtrlP
 let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_dont_split = 'NERD_tree_2'
+let g:ctrlp_working_path_mode = 'a'
 "
-" disable arrow keys, use if learning
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
-
 "automatically set slimbars filetype
 autocmd BufRead,BufNewFile *.slimbars setlocal filetype=slim

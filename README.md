@@ -48,6 +48,11 @@ Use Vundle to install plugins
     ,a:            : allign on colon sign
     ,as:           : allign sexy on colon sign
 
+    <right>        : move vertical window split to the right by 5
+    <left>         : move vertical window split to the left by 5
+    <up>           : move window split up by 5
+    <down>         : move window split down by 5
+
     ,t             : activate fuzzy search (ctrlp plugin)
     ,n             : open filetree (nerd tree)
 
