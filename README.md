@@ -1,6 +1,6 @@
 # Dotfiles 
 ## Configuration for life infront of a terminal 
-#### Strongly inspired by [cjveal](https://github.com/cjhveal/dotfiles)
+#### Strongly inspired by [cjhveal](https://github.com/cjhveal/dotfiles)
 #### [Tomorrow Night](https://github.com/chriskempson/tomorrow-theme/blob/master/OS%20X%20Terminal/Tomorrow%20Night.terminal) colour scheme is very highly reccomended 
 
 ### To install: 
@@ -21,7 +21,7 @@ Use Vundle to install plugins
     gp      : git push
     gl      : git pull
     gc      : git commit -m
-    gca     : got commit -a -m
+    gca     : git commit -a -m
     glog    : a colourful git log
 
     sa      : svn add
