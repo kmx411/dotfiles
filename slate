@@ -1,0 +1,16 @@
+#Push Bindings
+bind l:ctrl;cmd   push right bar-resize:screenSizeX/2
+bind h:ctrl;cmd   push left  bar-resize:screenSizeX/2
+bind k:ctrl;cmd   push up    bar-resize:screenSizeY/2
+bind j:ctrl;cmd   push down  bar-resize:screenSizeY/2
+bind space:ctrl;cmd move screenOriginX;screenOriginY screenSizeX;screenSizeY
+
+#Focus Bindings
+bind l:shift;cmd focus right
+bind h:shift;cmd focus left
+bind k:shift;cmd focus up
+bind j:shift;cmd focus down
+
+#Throw Bindings
+bind h:cmd;shift;ctrl throw 0
+bind l:cmd;shift;ctrl throw 1
