@@ -8,8 +8,8 @@ bind space:ctrl;cmd move screenOriginX;screenOriginY screenSizeX;screenSizeY
 #Focus Bindings
 bind l:shift;cmd focus right
 bind h:shift;cmd focus left
-bind k:shift;cmd focus up
-bind j:shift;cmd focus down
+bind k:shift;cmd focus behind
+bind j:shift;cmd focus behind
 
 #Throw Bindings
 bind h:cmd;shift;ctrl throw 0
