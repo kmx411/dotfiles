@@ -36,5 +36,9 @@ alias please="sudo"
 
 #Path
 #-------------------------------
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH=$HOME/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+#export PATH=$HOME/local/bin:$PATH
+
+#Other
+#------------------------------
+alias uwcs="ssh -l kmangalj linux.student.cs.uwaterloo.ca"
