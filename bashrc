@@ -36,7 +36,9 @@ alias please="sudo"
 
 #Path
 #-------------------------------
-export PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+PATH=/usr/local/bin:/usr/bin:/bin:$PATH
+PATH=/usr/racket/bin:$PATH
+export PATH
 #export PATH=$HOME/local/bin:$PATH
 
 #Other
