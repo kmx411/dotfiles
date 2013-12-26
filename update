@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Updating ... "
-`vim --noplugin -u ~/.vim/bundles.vim +BundleInstall +qall`
+`vim +BundleInstall +qall`
 echo "Done!"
