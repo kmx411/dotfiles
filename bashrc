@@ -1,3 +1,8 @@
+ # for setting history length
+ #-----------------------------------------
+HISTSIZE=50000
+HISTFILESIZE=500000
+
 #Standard shortcuts
 #---------------------------
 alias l='ls -al' 
@@ -5,8 +10,11 @@ alias l='ls -al'
 #GIT
 #---------------------------
 alias gs='git status'
+alias gsh='git stash'
+alias gsha='git stash apply'
 alias ga='git add'
 alias gp='git push'
+alias gp='git branch'
 alias gl='git pull'
 alias gc='git commit -m'
 alias gca='git commit -a -m'

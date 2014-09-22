@@ -1,6 +1,9 @@
 #set source for bashrc
 source ~/.bashrc
 
+#set source for RVM
+source ~/.rvm/scripts/rvm
+
 #bash profile autocomplete
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
