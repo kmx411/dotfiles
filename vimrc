@@ -21,7 +21,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'bkad/CamelCaseMotion'
-Bundle 'airblade/vim-gitgutter'
 
 "setup pathogen
 call pathogen#infect()
