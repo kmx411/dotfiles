@@ -53,3 +53,6 @@ export PATH
 #Other
 #------------------------------
 alias uwcs="ssh -l kmangalj linux.student.cs.uwaterloo.ca"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

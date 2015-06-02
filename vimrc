@@ -21,6 +21,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'bkad/CamelCaseMotion'
+Bundle 'mustache/vim-mustache-handlebars'
 
 "setup pathogen
 call pathogen#infect()

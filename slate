@@ -4,6 +4,10 @@ bind h:ctrl;cmd   push left  bar-resize:screenSizeX/2
 bind k:ctrl;cmd   push up    bar-resize:screenSizeY/2
 bind j:ctrl;cmd   push down  bar-resize:screenSizeY/2
 bind space:ctrl;cmd move screenOriginX;screenOriginY screenSizeX;screenSizeY
+bind y:ctrl;cmd move screenOriginX;screenOriginY screenSizeX/2;screenSizeY/2
+bind p:ctrl;cmd move screenSizeX/2;screenOriginY screenSizeX;screenSizeY/2
+bind b:ctrl;cmd move screenOriginX;screenSizeY/2 screenSizeX/2;screenSizeY
+bind .:ctrl;cmd move screenSizeX/2;screenSizeY/2 screenSizeX;screenSizeY
 
 #Focus Bindings
 bind l:shift;cmd focus right
