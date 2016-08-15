@@ -43,3 +43,4 @@ export PS1="\$(vcprompt -f '$C_DARKGRAY[$C_GREEN%n:%b%m%u$C_DARKGRAY] ')$C_PURPL
 #export PS1="\n$C_PURPLE\u$C_DARKGRAY @ $C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w\n$C_DARKGRAY\$$C_DEFAULT "
 
 export CLICOLOR=1
+export PATH="/usr/local/sbin:$PATH"

@@ -100,6 +100,7 @@ vnoremap <leader>as: :Tab /:\zs<CR>
 let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_dont_split = 'NERD_tree_2'
 let g:ctrlp_working_path_mode = 'a'
+noremap <c-f> :ClearCtrlPCache<CR>
 "
 "automatically set slimbars filetype
 autocmd BufRead,BufNewFile *.slimbars setlocal filetype=slim
