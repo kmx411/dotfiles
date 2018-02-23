@@ -22,6 +22,8 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'bkad/CamelCaseMotion'
 Bundle 'mustache/vim-mustache-handlebars'
+Plugin 'tomlion/vim-solidity'
+
 
 "setup pathogen
 call pathogen#infect()
