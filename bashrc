@@ -38,6 +38,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+#Postgres
+#-------------------------------
+alias startPSQL='postgres -D /usr/local/var/postgres/'
+
 #Custom things that are khallil only
 #-------------------------------------------
 alias fiix='cd ~/Dropbox/projects/TireSwap/'
